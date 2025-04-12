@@ -26,6 +26,7 @@ This repository contains code to load data into a ```postgres``` database from `
 
     ```pip install psycopg2-binary```
     ```pip install sqlalchemy```
+    ```pip install dotenv```
    
 7. Run the docker container for running ```postgres:15-alpine``` database an ```pgadmin``` services.
 
