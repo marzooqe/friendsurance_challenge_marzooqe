@@ -21,17 +21,18 @@ This repository contains code to load data into a ```postgres``` database from `
 4. Install the required libraries and dependencies from ```requirements.txt```
 
     ```pip install -r requirements.txt```
+   
+5. Run the docker container for running ```postgres:15-alpine``` database an ```pgadmin``` services.
 
-5. Install these libraries incase the requirement file has exception 
+    ```docker-compose up```
+
+6. Run the python script to run the required data pipelines.
+
+    ```python3 main.py```
+
+8. Install these libraries incase the requirement file has exception or error
 
     ```pip install psycopg2-binary```
     ```pip install sqlalchemy```
     ```pip install dotenv```
-   
-7. Run the docker container for running ```postgres:15-alpine``` database an ```pgadmin``` services.
-
-    ```docker-compose up```
-
-8. Run the ```main.py``` to run the required data pipelines.
-
 
