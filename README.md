@@ -6,6 +6,18 @@ This repository contains code to load data into a ```postgres``` database from `
 
 ## Steps
 
+**Prerequisites**
+1.	Download the GitHub Repository: The whole file can be downloaded as a zip 
+
+2.	Extract & Navigate to Project Directory: In my case, I have Ubuntu as the virtual system and the below codes are for the same.
+
+  	 ```cd friendsurance_challenge_marzooqe-main```
+  	
+4.	(Optional) Open project in Visual Studio Code
+
+    ```code .```
+   
+**Implementation**
 1. Define user environment variables inside ```.env``` after copying example environment file, ```env.example```, as ```.env```. The ```.env``` file will contain sensitive information like username, password, API Key etc.
 
     ```cp env.example .env```
